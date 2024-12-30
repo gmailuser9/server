@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000; // Use dynamic port in production (Render
 
 app.use(
   cors({
-    origin: "https://pending-oo5r.onrender.com", // Replace with your actual frontend URL on Render
+    origin: "https://pending-nvcr.onrender.com", // Replace with your actual frontend URL on Render
   })
 );
 app.use(express.json());
